@@ -5,12 +5,14 @@
     position: fixed;
     height: 130px;
     padding: 20px;
+    z-index: 1000;
 
     box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
     color: #fff;
     background-color: #000;
@@ -39,4 +41,24 @@
 
 .header-placeholder {
     height: 130px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1351px) {
+    .header {
+        height: 110px;
+    }
+    
+    .header-placeholder {
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        height: 71px;
+    }
+    
+    .header-placeholder {
+        height: 71px;
+    }
 }
