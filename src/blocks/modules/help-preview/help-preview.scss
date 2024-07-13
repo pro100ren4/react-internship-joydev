@@ -8,7 +8,7 @@
     position: relative;
     margin: auto;
 
-    width: 1272px;
+    max-width: 1272px;
     padding-top: 300px;
 }
 
@@ -80,4 +80,209 @@
 .help-preview__star-4 {
     top: 920px;
     left: 80px;
+}
+
+@media screen and (min-width: 768px)  and (max-width: 1351px) {
+    .help-preview {
+        padding: 0 48px;
+    }
+
+    .help-preview__inner {
+        margin: 0 16px;
+
+        padding-top: 75px;
+    }
+
+    .help-preview__logo > svg {
+        width: 268px;
+        height: 73px;
+    }
+
+    .help-preview__text {
+        font-size: 24px;
+        max-width: 70%;
+
+        margin-bottom: 42px;
+    }
+
+    .help-preview__google-play > svg {
+        width: 278px;
+        height: 79px;
+    }
+
+    .help-preview__phones {
+        top: 425px;
+        right: calc(90px + 250*(100vw - 768px) / 583);
+    }
+
+    .help-preview__phones > img {
+        width: 560px;
+    }
+
+    .help-preview__blur-1 {
+        top: 405px;
+        right: calc(350px + 250*(100vw - 768px) / 583);
+    }
+
+    .help-preview__blur-1 > svg { 
+        width: 320px;
+    }
+    
+    .help-preview__blur-2 {
+        top: 705px;
+        right: calc(110px + 250*(100vw - 768px) / 583);
+    }
+
+    .help-preview__blur-2 > svg {
+        width: 390px;
+    }
+
+    .help-preview__elipses {
+        top: 200px;
+        right: calc(-80px + 250*(100vw - 768px)/583);
+    }
+
+    .help-preview__elipses > svg {
+        width: 670px;
+    }
+
+    .help-preview__star-1 {
+        top: 50px;
+        left: calc(273px + 250*(100vw - 768px) / 583);
+    }
+
+    .help-preview__star-1  > svg {
+        width: 20px;
+    }
+
+    .help-preview__star-2 {
+        top: 185px;
+        right: calc(20px + 150*(100vw - 768px) / 583);
+    }
+
+    .help-preview__star-2 > svg {
+        width: 35px;
+    }
+
+    .help-preview__star-3 {
+        top: 545px;
+        right: calc(12px - 40*(100vw - 768px) / 583);
+    }
+
+    .help-preview__star-3 > svg {
+        width: 55px;
+    }
+
+    .help-preview__star-4 {
+        top: 895px;
+        left: calc(30px + 100*(100vw - 768px) / 583);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .help-preview {
+        padding: 32px 12px 0 12px;
+        height: 724px;
+    }
+
+    .help-preview__inner {
+        margin: 0 16px;
+
+        padding-top: 26px;
+    }
+
+    .help-preview__logo {
+        margin-bottom: 14px;
+    }    
+
+    .help-preview__logo > svg {
+        width: 207px;
+        // height: 73px;
+    }
+
+    .help-preview__text {
+        font-size: 18px;
+        max-width: 100%;
+
+        margin-bottom: 18px;
+    }
+
+    .help-preview__google-play > svg {
+        width: 164px;
+        // height: 79px;
+    }
+
+    .help-preview__phones {
+        top: 331px;
+        right: calc(15px + 150*(100vw - 320px)/448);
+    }
+
+    .help-preview__phones > img {
+        width: 280px;
+    }
+
+    .help-preview__blur-1 {
+        top: 206px;
+        right: calc(120px + 150*(100vw - 320px) / 448);
+    }
+
+    .help-preview__blur-1 > svg { 
+        width: 200px;
+    }
+    
+    .help-preview__blur-2 {
+        top: 356px;
+        right: calc(-10px + 150*(100vw - 320px)/448);
+    }
+
+    .help-preview__blur-2 > svg {
+        width: 260px;
+    }
+
+    .help-preview__elipses {
+        top: -4px;
+        right: calc(-70px + 150*(100vw - 320px)/448);
+    }
+
+    .help-preview__elipses > svg {
+        width: 343px;
+    }
+
+    .help-preview__star-1 {
+        top: 31px;
+        left: calc(211px + 150*(100vw - 320px) / 448);
+    }
+
+    .help-preview__star-1  > svg {
+        width: 20px;
+    }
+
+    .help-preview__star-2 {
+        top: 331px;
+        right: calc(10px + 50*(100vw - 320px) / 448);
+    }
+
+    .help-preview__star-2 > svg {
+        width: 25px;
+    }
+
+    .help-preview__star-3 {
+        top: 581px;
+        left: calc(10px + 50*(100vw - 320px) / 448);
+    }
+
+    .help-preview__star-3 > svg {
+        width: 30px;
+    }
+
+    .help-preview__star-4 {
+        width: 20px;
+        top: 589px;
+        left: unset;
+        right: calc(10px - 10*(100vw - 320px) / 448);
+    }
+    
+    .help-preview__star-4 > svg {
+        width: 20px;
+    }
 }
