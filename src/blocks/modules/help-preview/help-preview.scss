@@ -1,0 +1,82 @@
+.help-preview { 
+    background-color: #232323;
+    height: 100dvh;
+}
+
+.help-preview__inner {
+    position: relative;
+    margin: auto;
+
+    width: 1272px;
+    padding-top: 300px;
+}
+
+.help-preview__logo {
+    margin-bottom: 32px;
+}
+
+
+.help-preview__text {
+    margin-bottom: 60px;
+
+    max-width: 470px;
+
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.help-preview__phones {
+    position: absolute;
+    top: 80px;
+    right: -8px; 
+    z-index: 400;
+}
+
+.help-preview__blur-red-yellow {
+    position: absolute;
+    z-index: 200;
+}
+
+.help-preview__blur-1 {
+    top: 130px;
+    right: 350px;
+}
+
+.help-preview__blur-2 {
+    top: 580px;
+    right: 20px;
+}
+
+.help-preview__elipses {
+    position: absolute;
+    top: -10px;
+    right: -250px;
+    z-index: 300;
+}
+
+.help-preview__star {
+    position: absolute;
+    z-index: 100;
+}
+
+.help-preview__star-1 {
+    top: 90px;
+    left: 28px;
+}
+
+.help-preview__star-2 {
+    top: 68px;
+    right: 8px;
+}
+
+.help-preview__star-3 {
+    top: 770px;
+    right: 545px;
+}
+
+.help-preview__star-4 {
+    top: 920px;
+    left: 80px;
+}
