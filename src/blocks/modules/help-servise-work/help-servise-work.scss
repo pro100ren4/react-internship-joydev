@@ -89,13 +89,18 @@
 
 @media screen and (max-width: 1351px) {
     .help-service-work__inner {
-        padding: 0 48px;
+        padding: 0 64px;
         flex-direction: column-reverse;
         justify-content: center;
+        align-items: center;
     }
 
     .help-service-work__decorations {
+        display: flex;
+        justify-content: center;
         position:relative;
+        right: 30px;
+        max-width: 430px;
     }
 
     .help-service-work__decorations-phone {
@@ -103,8 +108,142 @@
         z-index: 500;
     }
 
+    .help-service-work__decorations-phone img {
+        width: 438px;
+    }
+
+    .help-service-work__decorations-ellipses {
+        position: absolute;
+        top: -35px;
+        left: -47px;
+        z-index: 200;
+    }
+    
+    .help-service-work__decorations-ellipses svg {
+        width: 630px;
+    }
+    
+    
+    .help-service-work__decorations-blur {
+        position: absolute;
+        top: 50px;
+        left: -14px;
+        z-index: 100;
+    }
+    
+    .help-service-work__decorations-star {
+        position: absolute;
+        top: 30px;
+        left: unset;
+        right: -100px;
+        z-index: 300;
+    }
+
     .help-service-work__content {
-        padding-top: 0;
+        padding: 58px 0 0 0;
         max-width: 100%;
+        width: 100%;
+    }
+
+    .help-service-work__title {
+        font-size: 36px;
+        margin-bottom: 1em;
+    }
+    
+    .help-service-work__item {
+        display: flex;
+    }
+    
+    .help-service-work__item svg {
+        width: 23px;
+        height: 22px;
+    
+        margin-right: 15px;
+    }
+    
+    .help-service-work__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .help-service-work__top-round-edge {
+        display: none;
+    }
+
+    .help-service-work__inner {
+        padding: 0 28px;
+    }
+
+    .help-service-work__decorations {
+        display: flex;
+        justify-content: center;
+        position:relative;
+        right: 80px;
+        max-width: 430px;
+    }
+
+    .help-service-work__decorations-phone {
+        position: relative;
+        z-index: 500;
+    }
+
+    .help-service-work__decorations-phone img {
+        width: 220px;
+    }
+
+    .help-service-work__decorations-ellipses {
+        position: absolute;
+        top: -215px;
+        left: 40px;
+        z-index: 200;
+    }
+    
+    .help-service-work__decorations-ellipses svg {
+        width: 320px;
+    }
+    
+    
+    .help-service-work__decorations-blur {
+        position: absolute;
+        top: -140px;
+        left: 90px;
+        z-index: 100;
+    }
+
+    .help-service-work__decorations-blur svg {
+        width: 200px;
+    }
+    
+    .help-service-work__decorations-star {
+        position: absolute;
+        top: 30px;
+        left: unset;
+        right: -90px;
+        z-index: 300;
+    }
+
+    .help-service-work__decorations-star svg {
+        width: 20px;
+    }
+
+    .help-service-work__content {
+        padding: 53px 0 0 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .help-service-work__title {
+        font-size: 20px;
+        margin-bottom: 29px;
+    }
+    
+    .help-service-work__item {
+        font-size: 16px;
+        display: flex;
+    }
+    
+    .help-service-work__item:not(:last-child) {
+        margin-bottom: 16px;
     }
 }
