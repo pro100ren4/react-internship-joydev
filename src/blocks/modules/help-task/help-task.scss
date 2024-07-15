@@ -1,3 +1,114 @@
-.help-task {
-    height: 80vh;
+.help-task__inner {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1272px;
+    height: 1200px;
+
+}
+
+.help-task__decorations {
+}
+
+.help-task__decorations-blur {
+    position: absolute;
+    top: 150px;
+    // left: -165px;
+    z-index: 100;
+}
+
+.help-task__decorations-round-shadow {
+    position: absolute;
+    top: 700px;
+    left: 160px;
+    z-index: 200;
+}
+
+.help-task__decorations-phone {
+    position: absolute;
+    z-index: 300;
+}
+
+.help-task__decorations-screen {
+    position: absolute;
+}
+
+.help-task__decorations-screen-1 {
+    top: -40px;
+    left: 120px;
+    z-index: 400;
+}
+
+.help-task__decorations-screen-2 {
+    top: 280px;
+    left: 90px;
+    z-index: 500;
+}
+
+.help-task__decorations-star {
+    position: absolute;
+}
+
+.help-task__decorations-star path {
+    fill: #000;
+}
+
+.help-task__decorations-star-1 {
+    top: 150px;
+    left: 560px
+}
+
+// .help-task__decorations-star-1 svg {
+//     width: ;
+// }
+
+.help-task__decorations-star-2 {
+    top: 620px;
+    right: 95px;
+}
+
+.help-task__decorations-star-2 svg {
+    width: 80px;
+}
+
+.help-task__decorations-star-3 {
+    top: 874px;
+    left: 355px;
+}
+
+.help-task__decorations-star-3 svg {
+    width: 45px;
+}
+
+.help-task__decorations-star-4 {
+    top: 977px;
+    left: 905px;
+}
+
+.help-task__decorations-star-4 svg {
+    width:  30px;
+}
+
+.help-task__content {
+    width: 507px;
+    padding: 266px 0 327px 0;
+}
+
+.help-task__content-title {
+    margin-bottom: 16px;
+
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 130%;
+    color: #2c2c2c;
+}
+
+.help-task__content-text {
+    max-width: 450px;
+    
+    font-size: 22px;    
+    font-weight: 400;
+    line-height: 150%;
 }
