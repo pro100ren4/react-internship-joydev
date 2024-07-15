@@ -23,6 +23,25 @@ abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite
     background: rgba(0, 0, 0, 0);
 }
 
-.svg-emoji {
-    display: inline-block;
+li, ul, ol {
+    list-style: none;
+}
+
+html {
+    font-family: 'Gotham Pro', 'Lato', 'Open Sans', 'Montserrat', 'Raleway', 'Ubuntu', 'Calibri', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
