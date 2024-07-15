@@ -5,12 +5,9 @@
     justify-content: space-between;
 
     max-width: 1272px;
-    height: 1200px;
-
 }
 
-.help-task__decorations {
-}
+/* Decorations */
 
 .help-task__decorations-blur {
     position: absolute;
@@ -60,16 +57,13 @@
     left: 560px
 }
 
-// .help-task__decorations-star-1 svg {
-//     width: ;
-// }
-
 .help-task__decorations-star-2 {
     top: 620px;
     right: 95px;
 }
 
 .help-task__decorations-star-2 svg {
+    transform: rotate(45deg);
     width: 80px;
 }
 
@@ -91,6 +85,8 @@
     width:  30px;
 }
 
+/* Decorations */
+
 .help-task__content {
     width: 507px;
     padding: 266px 0 327px 0;
@@ -111,4 +107,226 @@
     font-size: 22px;    
     font-weight: 400;
     line-height: 150%;
+}
+
+@media screen and (max-width: 1351px) {
+    .help-task__inner {
+        margin: 0 16px 84px 16px;
+        padding: 0 48px;
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+
+    /* Decorations */
+
+    .help-task__decorations {
+        position: relative;
+        align-self: center;
+    }
+
+    .help-task__decorations-round-shadow {
+        top: 660px;
+        left: 230px;
+    }
+
+    .help-task__decorations-phone {
+        position: relative;
+        top: 16px;
+        left: 45px;
+    }
+
+    .help-task__decorations-screen-1 {
+        top: -75px;
+        left: 190px;
+    }
+    
+    .help-task__decorations-screen-2 {
+        top: 250px;
+        left: 170px;
+    }
+
+    .help-task__decorations-blur {
+       left: 60px;
+    }
+
+    .help-task__decorations-star-1 {
+        top: 155px;
+        left: unset;
+        right: 30px;
+    }
+
+    .help-task__decorations-star-1 svg {
+        width: 30px;
+    }
+    
+    .help-task__decorations-star-2 {
+        top: 520px;
+        right: unset;
+        left: 60px
+    }
+    
+    .help-task__decorations-star-2 svg {
+        width: 86px;
+    }
+    
+    .help-task__decorations-star-3 {
+        top: 860px;
+        left: 55px;
+    }
+    
+    .help-task__decorations-star-3 svg {
+        width: 40px;
+    }
+    
+    .help-task__decorations-star-4 {
+        top: 977px;
+        left: 905px;
+    }
+    
+    .help-task__decorations-star-4 svg {
+        width:  30px;
+    }
+
+    /* Content */
+
+    .help-task__content {
+        width: 100%;
+        padding: 0;
+        padding-top: 78px;
+    }
+    
+    .help-task__content-title {
+        margin-bottom: 20px;
+    
+        font-size: 36px;
+    }
+    
+    .help-task__content-text {
+        max-width: 100%;
+        
+        font-size: 22px;    
+        font-weight: 400;
+        line-height: 150%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .help-task__inner {
+        margin-bottom: 43px;
+
+        padding: 0 12px;
+    }
+
+    /* Content */
+
+    .help-task__content {
+        width: 100%;    
+        padding: 0;
+        padding-top: 53px;
+    }
+    
+    .help-task__content-title {
+        margin-bottom: 27px;
+    
+        font-size: 20px;
+    }
+    
+    .help-task__content-text {
+        max-width: 100%;
+        
+        font-size: 16px;    
+    }
+
+    /* Decorations */
+
+    .help-task__decorations-round-shadow {
+        top: 310px;
+        left: 80px;
+    }
+
+    .help-task__decorations-round-shadow svg {
+        width: 120px;
+    }
+
+    .help-task__decorations-phone {
+        position: relative;
+        top: 30px;
+        left: 0px;
+        margin-bottom: 90px;
+        
+        width: 250px;
+    }
+
+    .help-task__decorations-phone img {
+        width: 100%;
+    }
+
+    .help-task__decorations-screen-1 {
+        top: -10px;
+        left: 65px;
+
+        width: 200px;
+    }
+
+    .help-task__decorations-screen-1 img {
+        width: 100%;
+    }
+    
+    .help-task__decorations-screen-2 {
+        top: 130px;
+        left: 55px;
+
+        width: 195px;
+    }
+
+    .help-task__decorations-screen-2 img {
+        width: 100%;
+    }
+
+    .help-task__decorations-blur {
+        top: -100px;
+        left: 0px;
+    }
+
+    .help-task__decorations-blur svg {
+        width: 200px;
+    }
+
+    .help-task__decorations-star-1 {
+        top: 155px;
+        left: unset;
+        right: 30px;
+    }
+
+    .help-task__decorations-star-1 svg {
+        width: 30px;
+    }
+    
+    .help-task__decorations-star-2 {
+        top: 520px;
+        right: unset;
+        left: 60px
+    }
+    
+    .help-task__decorations-star-2 svg {
+        width: 86px;
+    }
+    
+    .help-task__decorations-star-3 {
+        top: 860px;
+        left: 55px;
+    }
+    
+    .help-task__decorations-star-3 svg {
+        width: 40px;
+    }
+    
+    .help-task__decorations-star-4 {
+        top: 977px;
+        left: 905px;
+    }
+    
+    .help-task__decorations-star-4 svg {
+        width:  30px;
+    }
 }
