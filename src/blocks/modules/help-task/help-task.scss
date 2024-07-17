@@ -1,6 +1,7 @@
 .help-task__inner {
     position: relative;
     margin: auto;
+    margin-bottom: 62px;
     display: flex;
     justify-content: space-between;
 
@@ -28,6 +29,8 @@
 
 .help-task__decorations-phone {
     position: absolute;
+    top: 50px;
+    left: -30px;
     z-index: 300;
 }
 
@@ -46,6 +49,8 @@
     left: 90px;
     z-index: 500;
 }
+
+// TODO: fix stars
 
 .help-task__decorations-star {
     position: absolute;
