@@ -175,3 +175,116 @@ stroke: red;
     height: 44px;
     transform: rotate(55deg);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1351px) {
+    .help-extra-features {
+        height: 1950px;
+    }
+
+    .help-extra-features__title {
+        font-size: 42px;
+        margin-left: 0;
+    }
+
+    .help-extra-features__inner {
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+    }
+
+    .help-extra-features__list  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 60px 47px 0;
+        margin-top: -44px;
+        margin-bottom: 80px;
+    }
+
+    .help-extra-features__list-item {
+        position: static;
+        width: 80%;
+        height: 80px;
+        padding: 18px;
+    }
+
+    .help-extra-features__list-item-text p {
+        line-height: 160%;
+        margin-top: -.05em;
+    }
+
+    .help-extra-features__list-item-text p br {
+        display: none;
+    }
+
+    .help-extra-features__decorations {
+        position: relative;
+    }
+
+    .help-extra-features__decorations-phone {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .help-extra-features__decorations-phone-image {
+        z-index: 500;
+    }
+
+    .help-extra-features__decorations-elipsis {
+        top: -90px;
+        left: 218px;
+        width: 803px;
+        transform: rotate(8deg);
+    }
+
+    .help-extra-features__decorations-blur-1  {
+        top: 230px;
+        right: 420px;
+        width: 500px;
+        height: 500px;
+        transform: rotate(120deg);
+    }
+
+    .help-extra-features__decorations-blur-2  {
+        top: -90px;
+        right: 430px;
+        width: 500px;
+        height: 500px;
+        transform: rotate(120deg);
+    }
+
+    .help-extra-features__decorations-star-1 {
+        top: unset;
+        bottom: 70px;
+        right: 50px;
+        transform: rotate(58deg);
+        width: 55px;
+        height: 55px;
+
+    }
+    
+    .help-extra-features__decorations-star-2 {
+        top: 480px;
+        left: 50px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .help-extra-features__decorations-star-3 {
+        top: 70px;
+        left: 80px;
+        width: 26px;
+        height: 26px;
+    }
+    
+    .help-extra-features__decorations-star-4 {
+        top: 155px;
+        right: 80px;
+        width: 26px;
+        height: 26px;
+        transform: rotate(55deg);
+    }
+}

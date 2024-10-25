@@ -13,3 +13,21 @@
     width: 1050px;
     transform: rotate(100deg);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1351px) {
+    .help-solution-todo-list__decorations-elipses-1{
+        width: 71.1vw;
+        top: -5%;
+        left: -12%;
+
+        transform: rotate(96deg);
+    }
+
+    .help-solution-todo-list__decorations-elipses-2 {
+        width: 71.1vw;
+        top: -5%;
+        left: unset;
+        right: -12%;
+        transform: rotate(96deg);
+    }
+}

@@ -13,3 +13,18 @@
     width: 1458px;
     transform: rotate(-5deg);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1351px) {
+    .help-solution-deeplinks__decorations-elipses-1{
+        width: 85.16vw;
+        top: 2%;
+        left: -30%;
+    }
+    
+    .help-solution-deeplinks__decorations-elipses-2 {
+        width: 104.2vw;
+        top: -95%;
+        left: unset;
+        right: -49%;
+    }
+}

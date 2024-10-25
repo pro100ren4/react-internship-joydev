@@ -88,3 +88,82 @@
 .help-filter__lower-item-text {
     margin-left: 15px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1351px) {
+    .help-filter {
+        margin-bottom: 100px;
+    }
+
+    .help-filter__upper {
+        margin-bottom: 0;
+    }
+
+    .help-filter__upper-title {
+        font-size: 36px;
+        max-width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .help-filter__lower {
+        flex-direction: column-reverse;
+    }
+
+    .help-filter__lower-list {
+        padding: 28px 0 30px 0;
+        gap: 23px;
+    }
+
+    .help-filter__lower-item-text {
+        font-size: 20px;
+    }
+
+    .help-filter__lower-item-text br {
+        display: none;
+    }
+
+    .help-filter__lower-decoreations {
+        align-self: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .help-filter__decorations-phone {
+        position: static;
+        width: 56.64vw;
+        max-width: 530px;
+        z-index: 500;
+    }
+
+    .help-filter__decorations-ellipses {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 74.74vw;
+        top: 5vw;
+        left: 3.3vw;
+    }
+
+    .help-filter__decorations-blur {
+        top: 6.5vw;
+        left: 7.55vw;
+        width: 58.59vw;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help-filter__decorations-star-1 {
+        top: 3vw;
+        left: unset;
+        right: 6.5vw;
+
+    }
+
+    .help-filter__decorations-star-1 svg {
+        width: 60px;
+    }
+}
