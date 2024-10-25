@@ -1,0 +1,150 @@
+.help-result {
+    background-color: #232323;
+}
+
+.help-result__round-corner {
+    display: grid;
+    justify-content: center;
+    align-items: start;
+}
+
+.help-result__round-corner svg {
+    margin-top: -50px;
+    max-width: 100vw;
+}
+
+.help-result__inner {
+    height: 950px;
+    padding-top: 0;
+    position: relative;
+    margin: auto;
+    width: 1272px;
+}
+
+.help-result__content {
+    position: absolute;
+    right: 10px;
+    top: 225px;
+}
+
+.help-result__content-title {
+    font-size: 45px;
+    line-height: 130%;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    margin-bottom: 50px;
+    text-rendering: optimizespeed;
+}
+
+.help-result__content-item {
+    display: flex;
+    margin-bottom: 33px;
+}
+
+.help-result__content-item-mark {
+    width: 23px;
+    height: 23px;
+    margin-top: 7px;
+    margin-right: 13px;
+}
+
+.help-result__content-item-text {
+    line-height: 150%;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-right: -1;
+}
+
+.help-result__content-item-mark svg {
+    width: 100%;
+}
+
+.help-result__content-item-mark svg path {
+    stroke: red;
+}
+
+.help-result__decorations {
+    position: absolute;
+}
+
+.help-result__decorations-blur {
+    position: absolute;
+}
+
+.help-result__decorations-blur-1 {
+    top: 120px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(110deg);
+}
+
+.help-result__decorations-blur-2 {
+    top: 420px;
+    left: 60px;
+    width: 450px;
+    height: 450px;
+}
+
+.help-result__decorations-elepsis {
+    top: 250px;
+    left: -135px;
+    position: absolute;
+    z-index: 3;
+    width: 705px;
+    transform: rotate(90deg);
+}
+
+.help-result__decorations-star {
+    position: absolute;
+}
+
+.help-result__decorations-star svg {
+    width: 100%;
+    height: 100%;
+}
+
+.help-result__decorations-star-1 {
+    top: 150px;
+    left: 84px;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+    transform: rotate(18deg);
+}
+
+.help-result__decorations-star-2 {
+    top: 810px;
+    left: 28px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    transform: rotate(1deg);
+}
+
+.help-result__decorations-star-3 {
+    top: 704px;
+    left: 662px;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    transform: rotate(1deg);
+}
+
+.help-result__decorations-star-4 {
+    top: 720px;
+    left: 552px;
+    width: 35px;
+    height: 35px;
+    z-index: 100;
+    transform: rotate(1deg);
+}
+
+.help-result__decorations-phone {
+    position: absolute;
+    top: 169px;
+    left: 94px;
+    z-index: 5;
+}
