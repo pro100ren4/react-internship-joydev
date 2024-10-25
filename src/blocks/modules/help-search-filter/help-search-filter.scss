@@ -1,0 +1,90 @@
+.help-filter__upper {
+    display: flex;
+
+    margin-bottom: 46px;
+}
+
+.help-filter__upper-title {
+    width: 50%;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 130%;
+    color: #2c2c2c;
+}
+
+.help-filter__upper-text {
+    padding-left: 45px;
+    
+    width: 50%;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.help-filter__lower {
+    display: flex;
+}
+
+/* DECORATIONS */
+
+.help-filter__lower-decoreations {
+    position: relative;
+    width: 50%;
+}
+
+.help-filter__decorations-blur {
+    position:absolute;
+    left: -32px;
+    top: -10px;
+}
+
+.help-filter__decorations-star {
+    position:absolute;
+}
+
+.help-filter__decorations-star path {
+    fill: #000;
+}
+
+.help-filter__decorations-star-1 {
+    top: 156px;
+    left: 550px;
+}
+
+.help-filter__decorations-star-2 {
+    top: 544px;
+    left: 50px;
+}
+
+.help-filter__decorations-ellipses {
+    position:absolute;
+    left: -70px;
+    top: -55px;
+}
+
+.help-filter__decorations-ellipses > svg {
+    width: 724px;
+    height: 724px;
+}
+
+.help-filter__decorations-phone {
+    position: relative;
+    top: -80px;
+    left: 11px;
+}
+
+/* LIST */
+
+.help-filter__lower-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 105px;
+    gap: 48px;
+}
+
+.help-filter__lower-item {
+    display: flex;
+}
+
+.help-filter__lower-item-text {
+    margin-left: 15px;
+}
