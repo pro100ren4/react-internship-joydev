@@ -63,11 +63,12 @@
     height: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1351px) {
+@media screen and (max-width: 1351px) {
     .help-solution-block {
         margin-bottom: 97px;
     }
 
+    /* CONTENTS */
 
     .help-solution-block__content {
         flex-direction: column;
@@ -90,6 +91,7 @@
         font-size: 22px;
     }
 
+    /* DECORATIONS */
 
     .help-solution-block__decorarions {
         width: 100%;
@@ -115,5 +117,59 @@
         width: 105.6vw;
         top: -50%;
         left: -10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .help-solution-block {
+        margin-bottom: 60px;
+    }
+
+    /* CONTENTS */
+
+    .help-solution-block__content {
+        flex-direction: column;
+
+        margin-bottom: 40px;
+    }
+
+    .help-solution-block__content-title {
+        font-size:  20px;
+
+        margin-bottom: 22px;
+    }
+
+    .help-solution-block__content-text {
+        font-size: 16px;
+    }
+
+    /* DECORATIONS */
+
+    .help-solution-block__decorarions {
+        width: 100vw;
+        height: 89vw;
+
+        margin-left: -25px;
+        border-radius: 0px;
+    }
+
+    .help-solution-block__decorations-phone {
+        width: 42.19vw;
+    }
+
+    .help-solution-block__decorations-phone-1 {
+        left: 7.8vw;
+        top: 26.56vw;
+    }
+
+    .help-solution-block__decorations-phone-2 {
+        right: 7.8vw;
+        bottom: 22.19vw;
+    }
+
+    .help-solution-block__decorations-elipses {
+        width: 203vw;
+        top: -47.35%;
+        left: -25%;
     }
 }

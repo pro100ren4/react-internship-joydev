@@ -23,3 +23,14 @@
         font-size: 42px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .help-solution__inner {
+        width: calc(100% - 50px);
+    }
+
+    .help-solution__title {
+        font-size: 22px;
+        padding-top: 21px;
+    }
+} 

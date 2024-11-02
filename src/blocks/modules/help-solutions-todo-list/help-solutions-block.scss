@@ -14,7 +14,7 @@
     transform: rotate(100deg);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1351px) {
+@media screen and (max-width: 1351px) {
     .help-solution-todo-list__decorations-elipses-1{
         width: 71.1vw;
         top: -5%;
@@ -29,5 +29,24 @@
         left: unset;
         right: -12%;
         transform: rotate(96deg);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .help-solution-todo-list__decorations-elipses-1{
+        width: 1001px;
+        top: -97px;
+        left: -356px;
+
+        transform: rotate(51deg);
+    }
+
+    .help-solution-todo-list__decorations-elipses-2 {
+        width: 120.6vw;
+        top: -30%;
+        left: unset;
+        right: -43.75%;
+
+        transform: rotate(10deg);
     }
 }

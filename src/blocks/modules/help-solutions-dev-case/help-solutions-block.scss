@@ -24,3 +24,11 @@
         bottom: 0;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .help-solution-dev-case__decorations-phone-2 {
+        width: 50vw;
+        right: 1.6vw;
+        bottom: 23.4vw;
+    }
+}
