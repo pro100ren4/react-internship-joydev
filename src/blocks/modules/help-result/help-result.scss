@@ -59,6 +59,7 @@
 
 .help-result__content-item-mark svg {
     width: 100%;
+    height: 100%;
 }
 
 .help-result__content-item-mark svg path {
@@ -147,4 +148,194 @@
     top: 169px;
     left: 94px;
     z-index: 5;
+}
+
+@media screen and (max-width: 1351px) {
+    .help-result {
+        padding-bottom: 97px;
+        overflow: hidden;
+    }
+
+    .help-result__round-corner svg {
+        margin-top: -65px;
+    }
+
+    .help-result__inner {
+        display: flex;
+        max-width: calc(100vw - 126px);
+        flex-direction: column;
+        margin: 0 63px;
+        height: auto;
+    }
+
+    .help-result__content {
+        max-width: 80%;
+        position: static;
+    }
+
+    .help-result__content-title {
+        font-size: 36px;
+        margin-left: 0;
+        letter-spacing: .0138888889em;
+        margin-bottom: .6944444444em;
+    }
+
+    .help-result__content-item-mark {
+        width: 23px;
+        height: 23px;
+        margin-top: 7px;
+        margin-right: 13px;
+    }
+
+    .help-result__content-item-mark svg {
+        margin-right: 1.1818181818em;
+        margin-top: -.0909090909em;
+    }
+
+    .help-result__content-item-text {
+        font-size: 20px;
+        margin-left: .5em;
+        margin-top: .025em;
+        margin-right: 0;
+    }
+
+    .help-result__content-item-text br {
+        display: none;
+    }
+
+    .help-result__decorations {
+        position: relative;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        max-width: fit-content;
+    }
+
+    .help-result__decorations-phone {
+        position: static;
+        width: 56.64vw;
+        max-width: 24.0909090909em;
+    }
+
+    .help-result__decorations-blur-1 {
+        top: -22%;
+        left: -29%;
+        width: 80%;
+        height: 80%;
+        transform: rotate(120deg);
+    }
+
+    .help-result__decorations-blur-2 {
+        top: 35%;
+        left: unset;
+        right: -5%;
+        width: 93%;
+        height: 93%;
+        transform: rotate(-40deg);
+    }
+
+    .help-result__decorations-elepsis {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120%;
+        top: 15%;
+        left: -35%;
+        transform: rotate(93deg);
+    }
+
+    .help-result__decorations-star-1 {
+        top: 24%;
+        left: -19%;
+        width: 31px;
+        height: 31px;
+        transform: rotate(-5deg);
+    }
+    
+    .help-result__decorations-star-2 {
+        display: none;
+    }
+    
+    .help-result__decorations-star-3 {
+        left: unset;
+        top: 67%;
+        right: -4%;
+        width: 60px;
+        height: 60px;
+        transform: rotate(50deg);
+    }
+    
+    .help-result__decorations-star-4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .help-result {
+        margin-top: 80px;
+    }
+
+    .help-result__round-corner svg {
+        margin-top: -80px;
+    }
+
+    .help-result__inner {
+        max-width: calc(100vw - 50px);
+        margin: 0 25px;
+    }
+
+    .help-result__content {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .help-result__content-title {
+        font-size: 20px;
+    }
+
+    .help-result__content-item {
+        margin-bottom: 12px;
+    }
+
+    .help-result__content-item-mark svg {
+        width: .9090909091em;
+        height: .9090909091em;
+        margin-top: .2272727273em;
+    }
+
+    .help-result__content-item-text {
+        font-size: 16px;
+        margin-top: .03125em;
+    }
+
+    .help-result__decorations-phone {
+        width: 83.12vw;
+    }
+
+
+    .help-result__decorations-star-1 {
+        top: 70%;
+        left: unset;
+        right: 8%;
+        transform: rotate(58deg);
+        width: 1em;
+        height: 1em;
+    }
+    
+    .help-result__decorations-star-3 {
+        top: 10%;
+        right: 8%;
+        width: .9090909091em;
+        height: .9090909091em;
+        transform: rotate(3deg);
+    }
+    
+    .help-result__decorations-star-4 {
+        display: block;
+        top: 50%;
+        left: 7%;
+        width: .9545454545em;
+        height: .9545454545em;
+        transform: rotate(55deg);
+    }
 }
