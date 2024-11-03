@@ -29,3 +29,20 @@
     }
       
 }
+
+@media screen and (max-width: 767px) {
+    .help-solution-qr-code__decorations-elipses-1{
+        width: 137.5vw;
+        top: 21.88%;
+        left: -59.38%;
+        transform: rotate(76deg);
+    }
+    
+    .help-solution-qr-code__decorations-elipses-2 {
+        width: 141.88vw;
+        top: -68.25%;
+        left: unset;
+        right: -45.31%;
+    }
+      
+}

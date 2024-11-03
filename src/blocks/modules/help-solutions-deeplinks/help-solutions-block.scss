@@ -28,3 +28,20 @@
         right: -49%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .help-solution-deeplinks__decorations-elipses-1{
+        width: 167.81vw;
+        top: 2.0454545455em;
+        left: -78.13%;
+        transform: rotate(-25deg);
+    }
+    
+    .help-solution-deeplinks__decorations-elipses-2 {
+        width: 156.88vw;
+        top: -75.31%;
+        right: -53.12vw;
+        left: unset;
+        transform: rotate(6deg);
+    }
+}
